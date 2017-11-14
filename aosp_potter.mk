@@ -24,6 +24,7 @@ $(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
 
 # Inherit some common AOSP stuff.
 TARGET_ARCH := arm
+TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
